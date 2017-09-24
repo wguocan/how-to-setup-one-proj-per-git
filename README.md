@@ -43,3 +43,4 @@
 	cd /tmp/verify-project
 
 	git clone https://github.com/wguocan/how-to-setup-one-proj-per-git.git . (use dot to avoid creating additional folder)
+
