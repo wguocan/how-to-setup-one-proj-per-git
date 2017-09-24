@@ -1,20 +1,20 @@
-1.	Create a git repo at remote server
+1.	Create a git repository at remote server
 
-	e.g, create a new git repotory named how-to-setup-openssh
+	e.g, create a new git repository named how-to-setup-one-proj-per-git
 
 	or, at a git server:
  
-		mkdir how-to-setup-openssh
+		mkdir how-to-setup-one-proj-per-git
 
-		cd how-to-setup-openssh
+		cd how-to-setup-one-proj-per-git
 
 		git init --bare
 
 2. Create a project at local machine
 
-	mkdir ~/some-git-projects/how-to-setup-openssh
+	mkdir ~/some-git-projects/how-to-setup-one-proj-per-git
 
-	cd ~/some-git-projects/how-to-setup-openssh
+	cd ~/some-git-projects/how-to-setup-one-proj-per-git
 
 	git init
 
@@ -28,11 +28,11 @@
 
 4. Setup remote repository and push the project to remote
 
-	git remote add origin https://CWBitbucket@bitbucket.org/CWBitbucket/how-to-setup-openssh
+	git remote add origin https://github.com/wguocan/how-to-setup-one-proj-per-git.git
 
 	git push -u origin master
 
-	or change remote git url: git remote set-url origin https://CWBitbucket@bitbucket.org/CWBitbucket/how-to-setup-openssh
+	or change remote git url: git remote set-url origin https://github.com/wguocan/how-to-setup-one-proj-per-git.git
 	
 5. Verify to clone the project from remote repository
 
@@ -42,4 +42,4 @@
 
 	cd /tmp/verify-project
 
-	git clone https://CWBitbucket@bitbucket.org/CWBitbucket/how-to-setup-openssh.git . (use dot)
+	git clone https://github.com/wguocan/how-to-setup-one-proj-per-git.git . (use dot to avoid creating additional folder)
