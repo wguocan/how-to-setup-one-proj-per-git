@@ -32,10 +32,10 @@
 
 	git push -u origin master
 
-	or change remote git url: 
-		git remote set-url origin https://github.com/wguocan/how-to-setup-one-proj-per-git.git
-		git remote set-url origin /home/chris/git-repos/ras-repo
-		git remote set-url origin ssh://192.168.1.116/home/chris/git-repos/RAS
+	or change remote git url:   
+		git remote set-url origin https://github.com/wguocan/how-to-setup-one-proj-per-git.git  
+		git remote set-url origin /home/chris/git-repos/ras-repo  
+		git remote set-url origin ssh://192.168.1.116/home/chris/git-repos/RAS  
 	
 5. Verify to clone the project from remote repository
 
