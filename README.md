@@ -29,3 +29,11 @@
 	cd /tmp/verify-project  
 	git clone https://github.com/wguocan/how-to-setup-one-proj-per-git.git . (use dot to avoid creating additional folder)
 
+## 6. Create a new local branch  
+	git checkout -b feature-1  : use git branch -a to check if local feature-1 is created?  
+	edit files and commit the changes  
+	git diff master feature-1 : check the differences between local master branch and feature-1  
+	
+## 7 Push changes in new local branch to remote
+	git push -u origin feature-1 : push local feature-1 to remote feature-1 which will be created  
+	git branch -a : check if remotes/origin/feature-1 is created 
