@@ -34,6 +34,6 @@
 	edit files and commit the changes  
 	git diff master feature-1 : check the differences between local master branch and feature-1  
 	
-## 7 Push changes in new local branch to remote
+## 7. Push changes in new local branch to remote
 	git push -u origin feature-1 : push local feature-1 to remote feature-1 which will be created  
 	git branch -a : check if remotes/origin/feature-1 is created 
